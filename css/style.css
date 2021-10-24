@@ -508,10 +508,8 @@ footer img{
     }
     .dropdown-menu {
         border: none;
-        border-radius: 0.25
-    rem
-    ;
-  }
+    }
+}
   
   /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
   @media screen and (max-width: 600px) {
@@ -541,13 +539,14 @@ footer img{
     background: #fff;
     position: fixed;
     z-index: 9999;
-}.gooey {
+}
+.gooey {
     width: 160px;
     height: 40px;
     background: #fff;
     filter: contrast(20);
-  }
-  .gooey .dot {
+}
+.gooey .dot {
     position: absolute;
     width: 16px;
     height: 16px;
@@ -558,14 +557,14 @@ footer img{
     border-radius: 50%;
     transform: translateX(0);
     animation: dot 2.8s infinite;
-  }
-  .gooey .dots {
+}
+.gooey .dots {
     transform: translateX(0);
     margin-top: 12px;
     margin-left: 31px;
     animation: dots 2.8s infinite;
-  }
-  .gooey .dots span {
+}
+.gooey .dots span {
     display: block;
     float: left;
     width: 16px;
@@ -574,45 +573,44 @@ footer img{
     filter: blur(4px);
     background: #BC0017;
     border-radius: 50%;
-  }
-  @-moz-keyframes dot {
+}
+@-moz-keyframes dot {
     50% {
       transform: translateX(96px);
     }
-  }
-  @-webkit-keyframes dot {
+}
+@-webkit-keyframes dot {
     50% {
       transform: translateX(96px);
     }
-  }
-  @-o-keyframes dot {
+}
+@-o-keyframes dot {
     50% {
       transform: translateX(96px);
     }
-  }
-  @keyframes dot {
+}
+@keyframes dot {
     50% {
       transform: translateX(96px);
     }
-  }
-  @-moz-keyframes dots {
+}
+@-moz-keyframes dots {
     50% {
       transform: translateX(-31px);
     }
-  }
-  @-webkit-keyframes dots {
+}
+@-webkit-keyframes dots {
     50% {
       transform: translateX(-31px);
     }
-  }
-  @-o-keyframes dots {
+}
+@-o-keyframes dots {
+        50% {
+      transform: translateX(-31px);
+    }
+}
+@keyframes dots {
     50% {
       transform: translateX(-31px);
     }
-  }
-  @keyframes dots {
-    50% {
-      transform: translateX(-31px);
-    }
-  }
-  
+}
